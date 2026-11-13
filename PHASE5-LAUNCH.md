@@ -1,3 +1,5 @@
+> Historical Phase 5 checklist. Use [GOOGLE-PLAY-LAUNCH.md](GOOGLE-PLAY-LAUNCH.md) for the current recipe-and-cooking release scope and remaining launch prerequisites.
+
 # WisdomConnect Food — Phase 5 release guide
 
 ## Current verification

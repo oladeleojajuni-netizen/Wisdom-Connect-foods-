@@ -1,6 +1,8 @@
-# WisdomConnect Food — Phase 4
+# WisdomConnect Food
 
-Cross-platform Expo / React Native / TypeScript source for Android, iPhone and web. This is a development project, not a published app.
+Recipe-and-cooking app for African and Continental dishes, with guided written lessons, meal planning and a shopping list. Google Play launch preparation is tracked in [GOOGLE-PLAY-LAUNCH.md](GOOGLE-PLAY-LAUNCH.md).
+
+The first store release works without online accounts. Production builds explicitly disable cloud accounts. The earlier test APK is available through Expo; the app is not yet published on Google Play.
 
 ## Requirements and startup
 
@@ -16,7 +18,11 @@ npm start
 
 Expo Go can open a development QR code on supported devices. Some production configurations require a development build rather than Expo Go. Run on a Mac with Xcode for an iOS simulator; Android Studio for Android emulator.
 
-## Connect the backend
+## Optional future cloud accounts
+
+Cloud accounts are outside the first store release. To test them during development, set `EXPO_PUBLIC_ENABLE_CLOUD=true` and complete the setup below. Account deletion, password recovery and privacy review must be finished before releasing online accounts.
+
+### Connect the backend
 
 1. Create a Supabase project and enable email authentication.
 2. Run `supabase.sql`, `supabase-phase3.sql`, and `supabase-phase4.sql` **in that order** in the Supabase SQL editor.

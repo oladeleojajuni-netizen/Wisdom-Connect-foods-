@@ -15,6 +15,14 @@
     },
     "production": {
       "autoIncrement": true
+    },
+    "phone-apk": {
+      "distribution": "internal",
+      "android": {
+        "buildType": "apk",
+        "gradleCommand": ":app:assembleRelease",
+        "withoutCredentials": true
+      }
     }
   },
   "submit": {

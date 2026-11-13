@@ -3,3 +3,10 @@ node_modules/
 dist/
 .env
 *.log
+
+# Generated native projects and local signing files
+/android/
+/ios/
+credentials.json
+*.keystore
+*.jks
